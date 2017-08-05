@@ -36,7 +36,7 @@ start_year = start_year = args.year
 format_filename = '%d.md'
 format_section  = '# %Y/%m'
 format_line     = '- %y%m%d'
-dows            = ["mon","tue","wed","thu","fri","sat","SUN"]
+dows            = ['mon','tue','wed','thu','fri','sat','SUN']
 #  ---- Customization Area ] ----
 
 lines = []
