@@ -35,7 +35,7 @@ start_year = start_year = args.year
 #  ---- [ Customization Area ----
 format_filename = '%d.md'
 format_section  = '# %Y/%m'
-format_line     = '%y%m%d'
+format_line     = '- %y%m%d'
 dows            = ["mon","tue","wed","thu","fri","sat","SUN"]
 #  ---- Customization Area ] ----
 
@@ -52,7 +52,7 @@ while True:
         lines.append(dt.strftime(format_section))
 
     dow = DatetimeUtil.dt_to_dow(dt, dows)
-    line = ' %(date)s %(dow)s ' % {
+    line = '%(date)s %(dow)s ' % {
         'date' : dt.strftime(format_line),
         'dow'  : dow
     }

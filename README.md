@@ -20,7 +20,7 @@ Please edit the customization area of [pliscal.py](pliscal.py).
 #  ---- [ Customization Area ----
 format_filename = '%d.md'
 format_section  = '# %Y/%m'
-format_line     = '%y%m%d'
+format_line     = '- %y%m%d'
 dows            = ["mon","tue","wed","thu","fri","sat","SUN"]
 #  ---- Customization Area ] ----
 ...
