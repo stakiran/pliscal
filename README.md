@@ -26,6 +26,25 @@ dows            = ["mon","tue","wed","thu","fri","sat","SUN"]
 ...
 ```
 
+## (Example) My Ops
+![pliscal_sample](https://user-images.githubusercontent.com/23325839/28999448-52ed9e22-7a82-11e7-82e8-e38a57696dc4.jpg)
+
+My customization like this:
+
+```python
+#  ---- [ Customization Area ----
+format_filename = '%d.md'
+format_section  = '# %Y/%m'
+format_line     = ' %y%m%d'
+dows            = ["mon","tue","wed","thu","fri","sat","SUN"]
+#  ---- Customization Area ] ----
+```
+
+And,
+
+- Operating on my GitHub repo to use from my any machines.
+- A line of first '-' mark expresses today.
+
 ## License
 [MIT License](LICENSE)
 
